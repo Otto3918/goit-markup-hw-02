@@ -36,6 +36,12 @@ a {
   list-style: none;
 }
 
+.link {
+  line-height: 1.5;
+  text-decoration: none;
+  color: var(--navy-blue-color, #2E2F42);
+}
+
 .link:is(:hover, :focus) {
   color: var(--ocean-color);
 }
@@ -45,6 +51,8 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--navy-blue-color);
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .h-three-styles {
@@ -68,7 +76,7 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--navy-blue-color)
+  color: var(--navy-blue-color);
 }
 
 .folio-navig-logo {
@@ -78,7 +86,7 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--navy-blue-color)
+  color: var(--navy-blue-color, #2E2F42);
 }
 
 .logo-span {
@@ -87,13 +95,12 @@ a {
 
 .navig-list-link {
   font-weight: 500;
-  letter-spacing: 0.03em;
-  color: var(--navy-blue-color);
+  letter-spacing: 0.02em;
 }
 
-.navig-link-activ {
-  color: var(--ocean-color);
-}
+/* .navig-link-activ { */
+/* color: var(--ocean-color); */
+/* } */
 
 .header-adr,
 .header-tel {
@@ -108,13 +115,14 @@ a {
   text-decoration: none;
 }
 
-.section-3 {
+.section-three {
   background-color: var(--cloud-color);
 }
 
 /*------------- FILTERS ----------*/
 .btn {
   color: inherit;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -164,6 +172,7 @@ a {
 }
 
 .studio-header-box {
+  text-align: center;
   background-color: var(--navy-blue-color);
 }
 
