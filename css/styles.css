@@ -1,5 +1,5 @@
 :root {
-  --body-background-color: #fff;
+  --body-background-color: #ffffff;
   --slate-color: #434455;
   --navy-blue-color: #2e2f42;
   --ocean-color: #404bbf;
@@ -42,11 +42,11 @@ a {
 }
 
 .link:is(:hover, :focus) {
-  color: var(--ocean-color);
+  color: var(--ocean-color, #404bbf);
 }
 
 .section-three-list {
-  background-color: var(--body-background-color);
+  background-color: var(--body-background-color, #ffffff);
 }
 
 
@@ -100,6 +100,7 @@ a {
 .navig-list-link {
   font-weight: 500;
   letter-spacing: 0.02em;
+  color: var(--navy-blue-color);
 }
 
 .header-adr {
@@ -145,7 +146,7 @@ a {
 
 /*---------- IMAGES-ROW ----------*/
 .card-title {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -156,6 +157,7 @@ a {
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--slate-color, #434455);
 }
 
 .part-title {
