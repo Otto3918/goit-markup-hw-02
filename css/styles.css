@@ -12,7 +12,11 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   background-color: var(--body-background-color);
-  color: var(--navy-blue-color);
+  color: var(--slate-color);
+}
+
+a {
+  text-decoration: none;
 }
 
 .visually-hidden {
@@ -32,30 +36,28 @@ body {
   list-style: none;
 }
 
-.link {
-  text-decoration: none;
-}
-
 .link:is(:hover, :focus) {
   color: var(--ocean-color);
 }
 
-.h2-styles {
+.h-two-styles {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  color: var(--navy-blue-color);
 }
 
-.h3-styles {
+.h-three-styles {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--navy-blue-color);
 }
 
 .p-styles {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate-color);
 }
 
 /*--------- HEADER ---------*/
@@ -66,12 +68,21 @@ body {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
-  color: var(--iris-color)
+  color: var(--navy-blue-color)
+}
+
+.folio-navig-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--navy-blue-color)
 }
 
 .logo-span {
-  color: var(--navy-blue-color, #4D5AE5);
+  color: var(--iris-color, #4D5AE5);
 }
 
 .navig-list-link {
@@ -103,7 +114,7 @@ body {
 
 /*------------- FILTERS ----------*/
 .btn {
-  font-family: Roboto, sans-serif;
+  color: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -131,13 +142,13 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--navy-blue-color);
 }
 
 .card-descript {
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate-color);
 }
 
 .part-title {
