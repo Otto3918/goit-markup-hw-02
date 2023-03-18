@@ -45,7 +45,7 @@ a {
   color: var(--ocean-color, #404bbf);
 }
 
-.section-three-list {
+.section-three-item {
   background-color: var(--body-background-color, #ffffff);
 }
 
@@ -99,8 +99,10 @@ a {
 
 .navig-list-link {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--navy-blue-color);
+  color: var(--navy-blue-color, #2E2F42);
 }
 
 .header-adr {
@@ -153,7 +155,7 @@ a {
   color: var(--navy-blue-color);
 }
 
-.card-descript {
+.card-desc {
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: 0.02em;
